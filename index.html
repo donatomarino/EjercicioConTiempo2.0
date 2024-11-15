@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji</title>
+    <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+</head>
+<style>
+    h1,
+    div {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 10px auto;
+        font-size: 45px;
+    }
+
+    div{
+        font-size: 35px;
+    }
+
+    #select-emoji{
+        font-size: 18px;
+    }
+
+    button{
+        font-size: 20px;
+    }
+</style>
+
+
+
+<body>
+    <h1>EJERCICIO CON TIEMPO 2.0 - Donato Marino</h1>
+
+    <div>
+        <label>Eliges un emoji: </label>
+    </div>
+
+    <div>
+        <select id="select-emoji">
+            <option value="1F924">Drooling Face</option>
+            <option value="1F974">Woozy Face"</option>
+            <option value="2721">Star of David</option>
+            <option value="1F61F">Worried Face</option>
+        </select>
+    </div>
+
+    <div>
+        <button type="submit" onclick="mostrarEmoji()">Enviar</button>
+    </div>
+
+    <div class="emoji"></div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
